@@ -1,0 +1,15 @@
+Comando git clone <'URL_GITHUB'> : para clonar un repositorio en mi computadora y tener un archivo local
+
+Comando git status (dentro de la carpeta del proyecto) : muestra el status actual del proyecto
+
+
+
+Pasos para subir cambios: 
+	1. Preparar (o hacer track/stage a...) los archivos para ser subidos
+		- git add <'NOMBRE_ARCHIVO'> : prepara los archivos
+		* Nota: Para hacer "unstage" de un archivo usamos el comando gitrestore -- staged <'NOMBRE_ARCHIVO'>
+	2. Crear un commit
+		- Un commit es un conjunto de cambios con un mensaje que los describa
+		- git commit -m <"Mensaje">
+	3. Sincronizamos la rama remota con los cambios en la rama local
+		-git push
